@@ -383,8 +383,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 const email = document.getElementById("swal-input-email").value;
 
                 // Set default values if the user didn't enter any details
-                const finalName = name || "Mr John Doe ";
-                const finalEmail = email || "john@gmail.com";
+                const finalName = name || "Ms Niharika ";
+                const finalEmail = email || "niha@gmail.com";
 
                 setUserPreferences(finalName, finalEmail);
                 displayProfileData();
@@ -407,8 +407,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const preferences = getUserPreferences();
 
     if (
-        preferences.name === "John Doe" &&
-        preferences.email === "john@gmail.com"
+        preferences.name === "lisa Doe" &&
+        preferences.email === "lisa@gmail.com"
     ) {
         // If preferences are default, prompt the user for their name and email
         promptForNameAndEmail();
